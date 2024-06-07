@@ -27,3 +27,67 @@ footer {
 #gigs {
     font-size: larger;
 }
+
+.container {
+    display: grid;
+    grid-template-rows: 50px 50px 50px 50px 50px;
+    grid-template-columns: 100px 100px 100px 100px 100px;
+    border: 5px dotted rgb(158, 209, 92);
+    width: 500px;
+    text-align: center;
+    background-image: url("https://www.interregeurope.eu/sites/default/files/styles/news_full/public/news/Wood.jpg?itok=ING_UBw8");
+    opacity: 100%;
+}
+
+.item {
+    border: 5px solid purple;
+    text-align: center;
+    font-size: xx-large;
+    color: white;
+
+}
+
+#drums {
+    grid-row-start: 1;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    opacity: 100%;
+}
+
+#vox {
+    grid-row-start: 5;
+    grid-row-end: 6;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+#keys {
+    grid-row-start: 2;
+    grid-row-end: 5;
+    grid-column-start: 5;
+    grid-column-end: 6;
+}
+
+#keystext {
+    transform: rotate(90deg);
+}
+
+#bass {
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+#guitar {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+#violin {
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
